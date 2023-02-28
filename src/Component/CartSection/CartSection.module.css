@@ -1,0 +1,121 @@
+ 
+.card{
+  display: flex;
+  border: 2px solid rgb(237, 235, 235);
+  /* margin-left: 12rem; */
+  /* //width: 60rem; */
+  height: 20rem;
+  width: 70rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+ border-radius: 1.6rem;
+  background-color: rgb(250, 247, 239);
+  gap: 3rem;
+  position: relative;
+}
+.OrderCart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card:hover{
+   box-shadow: 0px 0px 5px 5px rgb(202, 191, 191);
+   background-color: rgb(247, 230, 197);
+}
+.price{
+   font-size: 2rem;
+   font-family: Okra, Helvetica, sans-serif;
+}
+.buy{
+   height: 3rem;
+   width: 10rem;
+   font-size: 1.2rem;
+   border-radius: 0.6rem;
+   color: white;
+   background-color:   rgb(38, 126, 62);
+   border: none;
+
+
+}
+.buy:hover{
+   box-shadow: 0px 0px 5px 2px rgb(193, 206, 197) ;
+   border: rgb(38, 126, 62);
+}
+.AddToCart{
+    border: 2px solid rgb(153, 151, 151);
+    width: 32vw;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 7rem 1rem rgb(207, 206, 206);
+    background-color: rgb(248, 246, 242);
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 65vw;
+
+}
+.mainCart{
+    display: flex;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+.img{
+   width: 30rem;
+   height: 20rem;
+   border-bottom-left-radius: 1.6rem;
+   border-top-left-radius: 1.6rem;
+}
+.head{
+   font-size: 2rem;
+   text-overflow: ellipsis;
+}
+.mainbox{
+   margin-bottom: 8rem;
+  
+}
+.navBarbox{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ 
+}
+ 
+.ButtonStyle{
+   background-color:  rgb(212, 32, 16);
+   border-radius: 0.5rem;
+   color: white;
+   border: none;
+   height: 3rem;
+   width: 10rem;
+   font-size: 1.2rem;
+   position: absolute;
+   left: 54rem;
+   top: 12rem;
+   cursor: pointer;
+}
+.ButtonStyle:hover{
+   box-shadow: 0px 0px 2px 2px  rgb(38, 126, 62);
+}
+.companyName{
+   font-size: 3rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: 1rem ;
+   cursor: pointer;
+}
+.cart{
+   font-size: 5rem;
+   
+}
+.cout{
+    font-size: 2rem;
+    margin-left: 2.2rem;
+    color: red;
+    position: absolute;
+    top: 3.5rem;
+ }
+ 
+ 

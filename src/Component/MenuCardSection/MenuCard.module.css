@@ -1,0 +1,760 @@
+ .hotelImg {
+     width: 50rem;
+     height: 30rem;
+     border: 1px solid rgb(232, 230, 230);
+     border-radius: 1.5rem;
+ }
+
+
+ .box {
+     display: flex;
+     margin-top: 5rem;
+     gap: 5rem;
+     background: rgb(249, 248, 245);
+     padding: 2rem;
+ }
+
+ .hotelName {
+     font-size: 4rem;
+     font-family: Okra, Helvetica, sans-serif;
+ }
+
+ .hotelAdd {
+     font-size: 3rem;
+     color: rgb(105, 105, 105);
+     display: inline;
+     text-decoration: none;
+ }
+
+ .hotelDetails {
+     margin-top: 5.5rem;
+     margin-left: 4rem;
+ }
+
+ .hotelTiming {
+     font-size: 2rem;
+     color: rgb(105, 105, 105);
+ }
+
+ .hotelCostOfTwo {
+     font-size: 1.5rem;
+     color: rgb(28, 28, 28);
+     font-family: Okra, Helvetica, sans-serif;
+ }
+
+ .Rating {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(38, 126, 62);
+     color: rgb(255, 255, 255);
+     height: 2.5rem;
+     width: 4rem;
+     padding: 0px 0.5rem;
+     font-size: 1.3rem;
+     border-radius: 0.6rem;
+     border: 1px solid rgb(38, 126, 62);
+ }
+
+ .hotelRating {
+     display: flex;
+     justify-content: flex-end;
+     gap: 4rem;
+     margin-right: 1rem;
+ }
+
+ .discount {
+     background: rgb(37, 111, 239);
+     color: rgb(255, 255, 255);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: rgb(255, 255, 255);
+     height: 2.5rem;
+     width: 8rem;
+     padding: 0px 0.5rem;
+     font-size: 1.3rem;
+     border-radius: 0.6rem;
+
+ }
+
+ .Ratingfull {
+     display: flex;
+     gap: 1rem;
+     align-items: center;
+ }
+
+ .RatingYear {
+     font-family: Okra, Helvetica, sans-serif;
+     color: rgb(85, 84, 84);
+ }
+
+ .hotelButton {
+     display: flex;
+     gap: 1rem;
+ }
+
+ .hotelBtn {
+     height: 3.6rem;
+     width: 7rem;
+     padding: 0px 1rem;
+     background: rgb(255, 255, 255);
+     border-radius: 0.8rem;
+     border: 1px solid rgb(156, 156, 156);
+     display: flex;
+     gap: 0.5rem;
+     -webkit-box-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     cursor: pointer;
+     margin-right: 1rem;
+ }
+
+ .hotelIcon {
+     color: rgb(242, 128, 128);
+ }
+
+ .Order {
+     display: flex;
+     flex-direction: column;
+     margin-left: 6rem;
+ }
+
+ .OrderName {
+     font-size: 3rem;
+     font-family: Okra, Helvetica, sans-serif;
+ }
+
+ .OrderLive {
+     display: flex;
+     gap: 1rem;
+     align-items: center;
+     font-size: 1.2rem;
+     color: rgb(105, 105, 105);
+     font-family: Okra, Helvetica, sans-serif;
+ }
+
+ .OrderOffer {
+
+     font-size: 1.7rem;
+     background-color: rgb(37, 111, 239);
+     font-family: Okra, Helvetica, sans-serif;
+     width: 25rem;
+     padding-left: 2rem;
+     color: white;
+     border-radius: 0.6rem;
+     cursor: pointer;
+ }
+.card{
+   display: flex;
+   border: 2px solid rgb(237, 235, 235);
+   /* margin-left: 12rem; */
+   /* //width: 60rem; */
+   height: 20rem;
+   width: 45rem;
+   margin-left: 3rem;
+   margin-bottom: 3rem;
+  border-radius: 1.6rem;
+   background-color: rgb(250, 247, 239);
+   gap: 3rem;
+ }
+ .OrderCart{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .card:hover{
+    box-shadow: 0px 0px 5px 5px rgb(202, 191, 191);
+    background-color: rgb(247, 230, 197);
+ }
+ .main{
+    
+     display: grid;
+      
+     grid-template-columns: 1fr 1fr ;
+    width: 25rem;
+ }
+ .img{
+    width: 20rem;
+    height: 20rem;
+    border-bottom-left-radius: 1.6rem;
+    border-top-left-radius: 1.6rem;
+ }
+ .head{
+    font-size: 1.2rem;
+    text-overflow: ellipsis;
+ }
+ .mainbox{
+    margin-bottom: 8rem;
+   
+ }
+ .navBarbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed;
+    top: 0; */
+    /* box-shadow: 0px 0px 2px 2px  rgb(38, 126, 62); */
+    
+
+ }
+ /* .navbarsearch{
+    border: 2px solid rgb(201, 198, 198);
+    box-shadow: 0px 0px 5px 2px rgb(237, 236, 236) ;
+    margin-top: 1rem;
+    width: 54rem;
+    height: 4rem;
+    padding-right: 10rem;
+    border-radius: 1.6rem;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+ } */
+ .ButtonStyle{
+    background-color:  rgb(38, 126, 62);
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+    height: 4rem;
+    width: 8rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+ }
+ .ButtonStyle:hover{
+    box-shadow: 0px 0px 2px 2px  rgb(38, 126, 62);
+ }
+ .companyName{
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1rem ;
+    cursor: pointer;
+ }
+ .cart{
+    font-size: 5rem;
+    position: fixed;
+    right: 14rem;
+ }
+ .count{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+ }
+ .cout{
+    font-size: 2rem;
+    margin-left: 2.2rem;
+    color: red;
+    position: fixed;
+    right: 16rem;
+    top: 4.6rem;
+ }
+ @media screen and (max-width : 1019px){
+    .hotelImg {
+        width: 50rem;
+        height: 30rem;
+        border: 1px solid rgb(232, 230, 230);
+        border-radius: 1.5rem;
+    }
+   
+   
+    .box {
+        display: flex;
+        margin-top: 5rem;
+        gap: 5rem;
+        background: rgb(249, 248, 245);
+        padding: 2rem;
+    }
+   
+    .hotelName {
+        font-size: 4rem;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+   
+    .hotelAdd {
+        font-size: 3rem;
+        color: rgb(105, 105, 105);
+        display: inline;
+        text-decoration: none;
+    }
+   
+    .hotelDetails {
+        margin-top: 5.5rem;
+        margin-left: 4rem;
+    }
+   
+    .hotelTiming {
+        font-size: 2rem;
+        color: rgb(105, 105, 105);
+    }
+   
+    .hotelCostOfTwo {
+        font-size: 1.5rem;
+        color: rgb(28, 28, 28);
+        font-family: Okra, Helvetica, sans-serif;
+    }
+   
+    .Rating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(38, 126, 62);
+        color: rgb(255, 255, 255);
+        height: 2.5rem;
+        width: 4rem;
+        padding: 0px 0.5rem;
+        font-size: 1.3rem;
+        border-radius: 0.6rem;
+        border: 1px solid rgb(38, 126, 62);
+    }
+   
+    .hotelRating {
+        display: flex;
+        justify-content: flex-end;
+        gap: 4rem;
+        margin-right: 1rem;
+    }
+   
+    .discount {
+        background: rgb(37, 111, 239);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        height: 2.5rem;
+        width: 8rem;
+        padding: 0px 0.5rem;
+        font-size: 1.3rem;
+        border-radius: 0.6rem;
+   
+    }
+   
+    .Ratingfull {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+   
+    .RatingYear {
+        font-family: Okra, Helvetica, sans-serif;
+        color: rgb(85, 84, 84);
+    }
+   
+    .hotelButton {
+        display: flex;
+        gap: 1rem;
+    }
+   
+    .hotelBtn {
+        height: 3.6rem;
+        width: 7rem;
+        padding: 0px 1rem;
+        background: rgb(255, 255, 255);
+        border-radius: 0.8rem;
+        border: 1px solid rgb(156, 156, 156);
+        display: flex;
+        gap: 0.5rem;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+   
+    .hotelIcon {
+        color: rgb(242, 128, 128);
+    }
+   
+    .Order {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6rem;
+    }
+   
+    .OrderName {
+        font-size: 3rem;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+   
+    .OrderLive {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        font-size: 1.2rem;
+        color: rgb(105, 105, 105);
+        font-family: Okra, Helvetica, sans-serif;
+    }
+   
+    .OrderOffer {
+   
+        font-size: 1.7rem;
+        background-color: rgb(37, 111, 239);
+        font-family: Okra, Helvetica, sans-serif;
+        width: 25rem;
+        padding-left: 2rem;
+        color: white;
+        border-radius: 0.6rem;
+        cursor: pointer;
+    }
+   .card{
+      display: flex;
+      border: 2px solid rgb(237, 235, 235);
+      /* margin-left: 12rem; */
+      /* //width: 60rem; */
+      height: 20rem;
+      width: 45rem;
+      margin-left: 3rem;
+      margin-bottom: 3rem;
+     border-radius: 1.6rem;
+      background-color: rgb(250, 247, 239);
+      gap: 3rem;
+    }
+    .OrderCart{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .card:hover{
+       box-shadow: 0px 0px 5px 5px rgb(202, 191, 191);
+       background-color: rgb(247, 230, 197);
+    }
+    .main{
+       
+        display: grid;
+         
+        grid-template-columns: 1fr 1fr ;
+       width: 25rem;
+    }
+    .img{
+       width: 20rem;
+       height: 20rem;
+       border-bottom-left-radius: 1.6rem;
+       border-top-left-radius: 1.6rem;
+    }
+    .head{
+       font-size: 1.2rem;
+       text-overflow: ellipsis;
+    }
+    .mainbox{
+       margin-bottom: 8rem;
+      
+    }
+    .navBarbox{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       /* position: fixed;
+       top: 0; */
+       /* box-shadow: 0px 0px 2px 2px  rgb(38, 126, 62); */
+       
+   
+    }
+    /* .navbarsearch{
+       border: 2px solid rgb(201, 198, 198);
+       box-shadow: 0px 0px 5px 2px rgb(237, 236, 236) ;
+       margin-top: 1rem;
+       width: 54rem;
+       height: 4rem;
+       padding-right: 10rem;
+       border-radius: 1.6rem;
+       padding-top: 2rem;
+       display: flex;
+       align-items: center;
+    } */
+    .ButtonStyle{
+       background-color:  rgb(38, 126, 62);
+       border-radius: 0.5rem;
+       color: white;
+       border: none;
+       height: 4rem;
+       width: 8rem;
+       font-size: 1.3rem;
+       cursor: pointer;
+    }
+    .ButtonStyle:hover{
+       box-shadow: 0px 0px 2px 2px  rgb(38, 126, 62);
+    }
+    .companyName{
+       font-size: 3rem;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       margin-top: 1rem ;
+       cursor: pointer;
+    }
+    .cart{
+       font-size: 5rem;
+       position: fixed;
+    }
+    .count{
+       display: flex;
+       flex-direction: column;
+       cursor: pointer;
+    }
+    .cout{
+       font-size: 2rem;
+       margin-left: 2.2rem;
+       color: red;
+       position: fixed;
+       right: 4rem;
+       top: 4.6rem;
+    }
+    .card1{
+          height: 18rem;
+    }
+ }
+ @media screen and (max-width : 1534px){
+    .hotelImg {
+        width: 50rem;
+        display: none;
+        height: 30rem;
+        border: 1px solid rgb(232, 230, 230);
+        border-radius: 1.5rem;
+    }
+   
+   
+    .box {
+        display: flex;
+        margin-top: 5rem;
+        gap: 5rem;
+        background: rgb(249, 248, 245);
+        padding: 2rem;
+    }
+   
+    .hotelName {
+        font-size: 4rem;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+   
+    .hotelAdd {
+        font-size: 3rem;
+        color: rgb(105, 105, 105);
+        display: inline;
+        text-decoration: none;
+    }
+   
+    .hotelDetails {
+        margin-top: 5.5rem;
+        margin-left: 4rem;
+    }
+   
+    .hotelTiming {
+        font-size: 2rem;
+        color: rgb(105, 105, 105);
+    }
+   
+    .hotelCostOfTwo {
+        font-size: 1.5rem;
+        color: rgb(28, 28, 28);
+        font-family: Okra, Helvetica, sans-serif;
+    }
+   
+    .Rating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(38, 126, 62);
+        color: rgb(255, 255, 255);
+        height: 2.5rem;
+        width: 4rem;
+        padding: 0px 0.5rem;
+        font-size: 1.3rem;
+        border-radius: 0.6rem;
+        border: 1px solid rgb(38, 126, 62);
+    }
+   
+    .hotelRating {
+        display: none;
+        justify-content: flex-end;
+        gap: 4rem;
+        margin-right: 1rem;
+    }
+   
+    .discount {
+        background: rgb(37, 111, 239);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        height: 2.5rem;
+        width: 8rem;
+        padding: 0px 0.5rem;
+        font-size: 1.3rem;
+        border-radius: 0.6rem;
+   
+    }
+   
+    .Ratingfull {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+   
+    .RatingYear {
+        font-family: Okra, Helvetica, sans-serif;
+        color: rgb(85, 84, 84);
+    }
+   
+    .hotelButton {
+        display: flex;
+        gap: 1rem;
+    }
+   
+    .hotelBtn {
+        height: 3.6rem;
+        width: 7rem;
+        padding: 0px 1rem;
+        background: rgb(255, 255, 255);
+        border-radius: 0.8rem;
+        border: 1px solid rgb(156, 156, 156);
+        display: flex;
+        gap: 0.5rem;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+   
+    .hotelIcon {
+        color: rgb(242, 128, 128);
+    }
+   
+    .Order {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6rem;
+    }
+   
+    .OrderName {
+        font-size: 3rem;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+   
+    .OrderLive {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        font-size: 1.2rem;
+        color: rgb(105, 105, 105);
+        font-family: Okra, Helvetica, sans-serif;
+    }
+   
+    .OrderOffer {
+   
+        font-size: 1.7rem;
+        background-color: rgb(37, 111, 239);
+        font-family: Okra, Helvetica, sans-serif;
+        width: 25rem;
+        padding-left: 2rem;
+        color: white;
+        border-radius: 0.6rem;
+        cursor: pointer;
+    }
+   .card{
+      display: flex;
+      border: 2px solid rgb(237, 235, 235);
+      /* margin-left: 12rem; */
+      /* //width: 60rem; */
+      height: 20rem;
+      width: 45rem;
+      margin-left: 3rem;
+      margin-bottom: 3rem;
+     border-radius: 1.6rem;
+      background-color: rgb(250, 247, 239);
+      gap: 3rem;
+    }
+    .OrderCart{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .card:hover{
+       box-shadow: 0px 0px 5px 5px rgb(202, 191, 191);
+       background-color: rgb(247, 230, 197);
+    }
+    .main{
+       
+        display: flex;
+        flex-direction: column;
+       width: 25rem;
+    }
+    .img{
+       width: 20rem;
+       height: 20rem;
+       border-bottom-left-radius: 1.6rem;
+       border-top-left-radius: 1.6rem;
+    }
+    .head{
+       font-size: 1.2rem;
+       text-overflow: ellipsis;
+    }
+    .mainbox{
+       margin-bottom: 8rem;
+      
+    }
+    .navBarbox{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       /* position: fixed;
+       top: 0; */
+       /* box-shadow: 0px 0px 2px 2px  rgb(38, 126, 62); */
+       
+   
+    }
+    /* .navbarsearch{
+       border: 2px solid rgb(201, 198, 198);
+       box-shadow: 0px 0px 5px 2px rgb(237, 236, 236) ;
+       margin-top: 1rem;
+       width: 54rem;
+       height: 4rem;
+       padding-right: 10rem;
+       border-radius: 1.6rem;
+       padding-top: 2rem;
+       display: flex;
+       align-items: center;
+    } */
+    .ButtonStyle{
+       background-color:  rgb(38, 126, 62);
+       border-radius: 0.5rem;
+       color: white;
+       border: none;
+       height: 4rem;
+       width: 8rem;
+       font-size: 1.3rem;
+       cursor: pointer;
+    }
+    .ButtonStyle:hover{
+       box-shadow: 0px 0px 2px 2px  rgb(38, 126, 62);
+    }
+    .companyName{
+       font-size: 3rem;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       margin-top: 1rem ;
+       cursor: pointer;
+    }
+    .cart{
+       font-size: 5rem;
+       position: fixed;
+    }
+    .count{
+       display: flex;
+       flex-direction: column;
+       cursor: pointer;
+    }
+    .cout{
+       font-size: 2rem;
+       margin-left: 2.2rem;
+       color: red;
+       position: fixed;
+       top: 4.6rem;
+    }
+    .card1{
+          height: 18rem;
+    }
+ }
