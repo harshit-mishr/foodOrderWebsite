@@ -1,10 +1,28 @@
- foodtopia
-it’s a food order website where you can simply order your food you can search by cites as well as multiple restaurants and their cuisine. By adding multiples food items you can go to add cart section and their you can see all items with total value
+Foodtopia
+Foodtopia is a food order website that allows users to order food from multiple restaurants and cuisines. Users can search for food by cities and choose from a variety of dishes. Once the user has added their desired items to the cart, they can proceed to the checkout section to see their order summary and total value.
 
-🚀 About Me
-I'm a frontend developer...
+Features
+Search for food items by city and restaurant
+Browse a variety of cuisines and dishes
+Add items to cart and view order summary
+Proceed to checkout to complete the order
 
-Hi, I'm Harshit Mishra 👋
-🔗 Links
-github Link - https://github.com/harshit-mishr/foodOrderWebsite.git DEPLOY-LINK- https://flourishing-mandazi-11c7f9.netlify.app/
+Technologies Used
+HTML
+CSS
+JavaScript
+ReactJS
+Netlify
 
+Installation
+To run the website locally, follow these steps:
+
+1-Clone the repository
+2-Open the project folder in a code editor of your choice
+3-Open the `index.html` file in your web browser
+
+Deployment
+The website is deployed on Netlify and can be accessed through this link: https://flourishing-mandazi-11c7f9.netlify.app/
+
+About Me
+I'm Harshit Mishra, a frontend developer with experience in HTML, CSS, and JavaScript. You can find more of my work on GitHub.
