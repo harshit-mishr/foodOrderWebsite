@@ -8,17 +8,24 @@ Add items to cart and view order summary
 Proceed to checkout to complete the order
 
 Technologies Used
+
 HTML
+
 CSS
+
 JavaScript
+
 ReactJS
+
 Netlify
 
 Installation
 To run the website locally, follow these steps:
 
 1-Clone the repository
+
 2-Open the project folder in a code editor of your choice
+
 3-Open the `index.html` file in your web browser
 
 Deployment
